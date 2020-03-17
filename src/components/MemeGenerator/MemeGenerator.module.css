@@ -1,0 +1,72 @@
+.MemeGenerator h1 {
+  color: #ffffff;
+  text-shadow: 5px 5px 8px salmon;
+  font-size: 35px;
+}
+
+.MemeGenerator button {
+  font-size: 25px;
+  margin: 1.3rem 0;
+  padding: 0.5rem 10px;
+  background-color: #ffffff;
+  border: 2px solid cadetblue;
+  color: cadetblue;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all;
+  transition-duration: 250ms;
+}
+
+.MemeGenerator button:hover {
+  background-color: cadetblue;
+  color: #ffffff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.TextInput {
+  display: flex;
+  width: 35%;
+  margin: 1.2rem auto;
+  justify-content: space-around;
+}
+
+input[name='topText'],
+input[name='bottomText'] {
+  border: 2px solid steelblue;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+input[type='number'] {
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.FontSize {
+  margin-bottom: 1.3rem;
+}
+
+.Meme > h2 {
+  position: absolute;
+  max-width: 36em;
+  text-align: center;
+  left: 49%;
+  transform: translateX(-50%);
+  margin: 0.3em 0;
+  padding: 0 0px;
+  font-family: impact, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.Meme > .Bottom {
+  bottom: 3.5em;
+}
+
+.Meme > .top {
+  top: 0.1em;
+}
