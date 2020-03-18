@@ -5,7 +5,47 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(-90deg, lightblue, cadetblue);
+  /* background: linear-gradient(-90deg, lightblue, cadetblue); */
+  background: linear-gradient(270deg, #3a87d2, #3ad275, #d23a3f);
+  background-size: 600% 600%;
+  -webkit-animation: meme 31s ease infinite;
+  -moz-animation: meme 31s ease infinite;
+  animation: meme 31s ease infinite;
+  animation-name: meme;
+}
+
+@-webkit-keyframes meme {
+  0% {
+    background-position: 0% 52%;
+  }
+  50% {
+    background-position: 100% 49%;
+  }
+  100% {
+    background-position: 0% 52%;
+  }
+}
+@-moz-keyframes meme {
+  0% {
+    background-position: 0% 52%;
+  }
+  50% {
+    background-position: 100% 49%;
+  }
+  100% {
+    background-position: 0% 52%;
+  }
+}
+@keyframes meme {
+  0% {
+    background-position: 0% 52%;
+  }
+  50% {
+    background-position: 100% 49%;
+  }
+  100% {
+    background-position: 0% 52%;
+  }
 }
 
 code {

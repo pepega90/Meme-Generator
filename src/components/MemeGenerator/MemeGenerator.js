@@ -41,11 +41,11 @@ class MemeGenerator extends Component {
         <h1>Meme Generator</h1>
         <div className={classes.TextInput}>
           <div>
-            <h2>Top text</h2>
+            <h2 style={{color: '#ffff'}}>Top text</h2>
             <input onChange={this.handlerText} name="topText" />
           </div>
           <div>
-            <h2>Bottom text</h2>
+            <h2 style={{color: '#ffff'}}>Bottom text</h2>
             <input onChange={this.handlerText} name="bottomText" />
           </div>
         </div>
